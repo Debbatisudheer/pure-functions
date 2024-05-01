@@ -22,6 +22,25 @@
 
         <p>In space missions, where reliability and precision are paramount, pure functions are used extensively in critical systems such as navigation, data processing, and control algorithms. By relying on pure functions, engineers can ensure that these systems behave predictably and consistently, even in the harsh and unpredictable conditions of space.</p>
     </div>
+     <div class="container">
+           <img src="11.png" alt="output analysis" class="landing-image">
+             <h1>Pure Functions Explanation</h1>
+        <p>Both <strong>calculate_trajectory</strong> and <strong>adjust_thrust</strong> are pure functions. Here's why:</p>
+        <ul>
+            <li><strong>calculate_trajectory:</strong>
+                <ul>
+                    <li>This function takes in altitude and velocity as input parameters and computes the new altitude based on the current altitude and velocity.</li>
+                    <li>It doesn't modify any variables outside of its scope and always produces the same output for the same input. Therefore, it satisfies the criteria of a pure function.</li>
+                </ul>
+            </li>
+            <li><strong>adjust_thrust:</strong>
+                <ul>
+                    <li>Similar to calculate_trajectory, this function takes in thrust, target_velocity, and current_velocity as input parameters and calculates the adjusted thrust based on the proportional adjustment formula.</li>
+                    <li>Like the previous function, it doesn't modify any variables outside of its scope and produces the same output for the same input. Hence, it's also a pure function.</li>
+                </ul>
+            </li>
+        </ul>
+            </div>
  <div class="container">
         <h2>In space missions, including moon missions, pure functions are commonly used in critical systems where reliability, predictability, and accuracy are essential. Here are some specific areas where pure functions are utilized:</h2>
 
